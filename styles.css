@@ -6,3 +6,78 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+.body {
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf) fixed;
+}
+
+.title {
+  color: #ffffff;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.message-type {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.message-select {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 35%;
+  margin-bottom: 80px;
+  height: 80px;
+}
+
+.recieve-message {
+  color: #ffffff;
+  background-color: #134d71;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.output-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 55%;
+  height: 150px;
+  line-height: 150px;
+  margin-top: 110px;
+}
+
+.affirmation-bubble {
+  margin-top: 15px;
+  margin-right: 10px;
+
+}
+
+.mantra-bubble {
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none!important;
+}
+
+.meditation-image {
+  margin-top: 40px;
+  height: 70px;
+  width: 70px
+}
+
+.output-message {
+  text-align: center;
+}
